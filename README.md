@@ -23,6 +23,8 @@ calcula seu IMC e retorna o IMC e verifica em qual categoria o usuário se enqua
     git clone https://github.com/dorfmam/calculadora-imc.git
     ```
 
+Caso deseje acessar o site diretamente, [clique aqui](https://dorfmam.github.io/calculadora-imc/)
+
 ---
 
 ## 📂 Estrutura do Projeto
