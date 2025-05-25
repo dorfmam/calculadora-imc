@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ancizar Serif", sans-serif;
+    background-color: #222831;
+    color: #dfd0b8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.textos {
+    flex: 1;
+    text-align: left;
+    padding-left: 8px;
+}
+
+.textos h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #dfd0b8;
+}
+
+.textos p {
+    font-size: 1.2rem;
+    color: #dfd0b8;
+}
+
+.formulario {
+    flex: 1;
+    background-color: #393e46;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    font-family: "Ancizar Serif", sans-serif;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #dfd0b8;
+    color: #1a1a1a;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #948979;
+}
+
+#resultado {
+    margin-top: 20px;
+    margin-left: 8px;
+    text-align: center;
+    font-weight: normal;
+    color: #dfd0b8;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+    }
+
+    .textos,
+    .formulario {
+        text-align: center;
+    }
+}
