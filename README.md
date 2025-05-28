@@ -39,9 +39,8 @@ calculadora-imc/
 ├── images/                # Recursos visuais utilizados
 │   └── calculator.png     # Imagem decorativa
 ├── index.html             # Página principal da calculadora
-├── .gitattributes         # Força a atualização de "most used languages"
+├── .gitattributes         # Arquivo para controle de linguagens no GitHub
 └── README.md              # Documentação do projeto
-
 ```
 
 ---
