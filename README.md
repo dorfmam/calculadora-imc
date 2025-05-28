@@ -31,14 +31,17 @@ Caso deseje acessar o site diretamente, [clique aqui](https://dorfmam.github.io/
 
 ```
 calculadora-imc/
-├── css/                   # Estilos da aplicação
-│   └── styles.css         # Estilo principal da calculadora
+├── assets/                # Recursos estáticos da aplicação
+│   ├── css/               # Estilos da aplicação
+│   │   └── styles.css     # Estilo principal da calculadora
+│   └── js/                # Scripts JavaScript
+│       └── script.js      # Lógica da calculadora de IMC
 ├── images/                # Recursos visuais utilizados
 │   └── calculator.png     # Imagem decorativa
-├── js/                    # Scripts JavaScript
-│   └── script.js          # Lógica da calculadora de IMC
 ├── index.html             # Página principal da calculadora
+├── .gitattributes         # Força a atualização de "most used languages"
 └── README.md              # Documentação do projeto
+
 ```
 
 ---
